@@ -8,6 +8,7 @@ library(tidyverse)
 library(haven)
 library(broom)
 library(cidata)
+library(geepack)
 ```
 
 ## Your Turn 1
@@ -73,7 +74,7 @@ nhefs_complete <- propensity_model %>%
 
 # Your Turn 4
 
-We're going to fit the marginal structural model using `geeglm()`. We need to use this because it gives us more accurate confidence intervals.
+We're going to fit the marginal structural model using `geeglm()` from the geepack package. We need to use this because it gives us more accurate confidence intervals.
 
 1. Specify the formula: `wt82_71` on the left hand side and `qsmk` on the right hand side. We don't need any other variables in the formula!
 2. Set the data to `nhefs_complete`
