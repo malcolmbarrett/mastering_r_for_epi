@@ -12,9 +12,8 @@ will also cover making reproducible reports with the powerful R Markdown
 system. This part of the course is influenced by the [Master the
 Tidyverse](https://github.com/rstudio/master-the-tidyverse) workshop
 offered by RStudio but focuses more on the needs of health researchers.
-We also cover causal modeling, Shiny, R packages, and other
-miscellaneous topics. The Shiny section of the course is heavily
-influenced by the [full day Shiny
+We also cover modeling, Shiny, and other miscellaneous topics. The Shiny
+section of the course is heavily influenced by the [full day Shiny
 workshop](https://github.com/dtkaplan/shinymark) offered by RStudio.
 
 **It is essential that you complete two tasks before we begin:**
